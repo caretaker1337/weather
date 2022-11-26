@@ -1,0 +1,14 @@
+{
+  "description": "Weather app",
+  "name": "weather",
+  "type": "module",
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.8.0",
+    "@parcel/resolver-glob": "^2.8.0",
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  }
+}

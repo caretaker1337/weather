@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="scss/init.scss">
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+</head>
+
+<body>
+  <div class="header">
+    <div class="header__time">
+      <p class="header__time__text">1:41</p>
+    </div>
+
+    <div class="header__icons">
+      <ul class="header__icons__list">
+        <li class="header__icons__item">
+          <img src="images/header_icons_img1.png" class="header__icons__img header__icons__img—data" alt="header_icons_data">
+        </li>
+
+        <li class="header__icons__item">
+          <img src="images/header_icons_img2.svg" class="header__icons__img header__icons__img—wifi" alt="header_icons_wifi">
+        </li>
+
+        <li class="header__icons__item">
+          <img src="images/header_icons_img3.png" class="header__icons__img header__icons__img—battery" alt="header_icons_battery">
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero__title">
+      <p class="hero__title__text">Montreal</p>
+    </div>
+
+    <div class="hero__weather">
+      <p class="hero__weather__text">19&#xb0;</p>
+    </div>
+  </div>
+
+  <div class="middle__bg">
+    <img src="images/middle_img_house.png" class="middle__bg__img" alt="house_bg">
+  </div>
+
+  <div class="forecast">
+    <div class="forecast__time">
+      <p class="forecast__time__hourly">Hourly Forecast</p>
+      <p class="forecast__time__weekly">Weekly Forecast</p>
+    </div>
+
+    <div class="forecast__menu">
+      <ul class="forecast__menu__list">
+        <li class="forecast__menu__item">
+          <p class="forecast__menu__time">12 AM</p>
+          <div class="forecast__menu__content">
+            <img src="images/forecast_menu_cloud_img1.svg" class="forecast__menu__img" alt="forecast_menu_img">
+            <p class="forecast__menu__hum">30&#xb0;</p>
+          </div>
+          <p class="forecast__menu__temp">19&#xb0;</p>
+        </li>
+
+        <li class="forecast__menu__item">
+          <p class="forecast__menu__time">Now</p>
+          <div class="forecast__menu__content">
+            <img src="images/forecast_menu_cloud_img1.svg" class="forecast__menu__img" alt="forecast_menu_img">
+          </div>
+          <p class="forecast__menu__temp">19&#xb0;</p>
+        </li>
+
+        <li class="forecast__menu__item">
+          <p class="forecast__menu__time">2 AM</p>
+          <div class="forecast__menu__content">
+            <img src="images/forecast_menu_cloud_img3.svg" class="forecast__menu__img" alt="forecast_menu_img">
+          </div>
+          <p class="forecast__menu__temp">29&#xb0;</p>
+        </li>
+
+        <li class="forecast__menu__item">
+          <p class="forecast__menu__time">3 AM</p>
+          <div class="forecast__menu__content">
+            <img src="images/forecast_menu_cloud_img1.svg" class="forecast__menu__img" alt="forecast_menu_img">
+          </div>
+          <p class="forecast__menu__temp">30&#xb0;</p>
+        </li>
+
+        <li class="forecast__menu__item">
+          <p class="forecast__menu__time">4 AM</p>
+          <div class="forecast__menu__content">
+            <img src="images/forecast_menu_cloud_img1.svg" class="forecast__menu__img" alt="forecast_menu_img">
+          </div>
+          <p class="forecast__menu__temp">26&#xb0;</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="forecast__footer">
+      <button type="button" class="forecast__footer__button">
+        <span class="forecast__footer__button__img__correct">
+          <img src="images/hero_control_button1.png" class="forecast__footer__button__img" alt="hero_control_button_img">
+          <img src="images/forecast_footer_plus_img.svg" class="forecast__footer__plus__img" alt="forecast_footer_plus_img">
+        </span>
+      </button>
+
+      <button type="button" class="forecast__footer__button__left">
+        <img src="images/footer_left_img.svg" alt="forecast_footer_button_left">
+      </button>
+
+      <button type="button" class="forecast__footer__button__right">
+        <img src="images/footer_right_img.svg" alt="forecast_footer_button_right">
+      </button>
+    </div>
+  </div>
+</body>
+</html>
