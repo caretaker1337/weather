@@ -59,6 +59,9 @@ img {
   vertical-align: middle;
 }
 
+@keyframes moveTop {
+}
+
 body {
   background-image: url("bg_img.db759740.png");
   background-repeat: no-repeat;
@@ -124,11 +127,17 @@ body {
   backdrop-filter: blur(25px);
   background: linear-gradient(167.57deg, #2e335a42 -4.68%, #1c1b3342 95.45%);
   border-radius: 44px 44px 0 0;
+  transition: transform .4s ease-in-out;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  transform: translate3d(0, 0, 0);
   box-shadow: inset 0 1px #fff;
+}
+
+.forecast--opened {
+  transform: translate3d(0, -150px, 0);
 }
 
 .forecast__time {

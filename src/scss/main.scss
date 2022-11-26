@@ -1,3 +1,7 @@
+@keyframes moveTop {
+	
+}
+
 body {
 	background-image: url("../images/bg_img.png");
 	background-repeat: no-repeat;
@@ -78,6 +82,12 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	transform: translate3d(0, 0, 0);
+	transition: transform 0.4s ease-in-out;
+
+	&--opened {
+		transform: translate3d(0, -150px, 0);
+ }
 }
 
 .forecast__time {
